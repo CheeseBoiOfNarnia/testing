@@ -3,12 +3,3 @@
 </div>
 
 <script>
-    // Block embedding on other sites
-    window.onload = function() {
-        // Allow embedding only if the site is 'mcred2024.github.io'
-        const allowedHostnames = ["mcred2024.github.io", "www.mcred2024.github.io"];
-        if (!allowedHostnames.includes(window.location.hostname)) {
-            document.body.innerHTML = "<h1 style='color: blue;'>You are not allowed to embed this</h1>";
-        }
-    };
-</script>
